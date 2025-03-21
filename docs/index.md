@@ -1,4 +1,4 @@
-# Documentation for the Apurinã keyboards
+# Documentation for the Munduruku keyboards
 
 
 # Layouts
