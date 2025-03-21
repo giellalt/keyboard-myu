@@ -1,4 +1,4 @@
-# Keyboard layout(s) for Mundurukú
+# Keyboard layout(s) for Apurinã
 
 **Legend:**
 
@@ -6,6 +6,7 @@
 | ----------:|:-------:|:------------:|:-----------------------:|:------------------------:|
 |**Standard**| black   | red          | blue                    | purple                   |
 |**Deadkey** | green   | orange       | pink                    | green                    |
+
 
 # Keyboard Layouts
 

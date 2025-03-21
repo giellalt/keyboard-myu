@@ -1,4 +1,4 @@
-# Keyboards for Mundurukú
+# Keyboards for Munduruku
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/keyboard-myu)](https://github.com/giellalt/keyboard-myu/issues)
 [![Build Status](https://github.com/giellalt/keyboard-myu/workflows/Build%20Keyboards/badge.svg)](https://github.com/giellalt/keyboard-myu/actions)
@@ -6,8 +6,8 @@
 [![License](https://img.shields.io/github/license/giellalt/keyboard-myu)](https://github.com/giellalt/keyboard-myu/blob/main/LICENSE)
 
 This repository contains source files for
-keyboards for the Mundurukú language. The code
-is licensed under the GPLv3 license, and the license is
+keyboards for the Munduruku language. The code
+is licensed under the LGPLv3 license, and the license is
 also detailed in the [LICENSE](LICENSE) file. The authors named
 in the AUTHORS file are available for other licensing options.
 

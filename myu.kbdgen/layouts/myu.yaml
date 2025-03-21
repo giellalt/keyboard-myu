@@ -1,6 +1,7 @@
 displayNames:
-  'myu': Mundurukú
-  en: Mundurukú
+  myu: Munduruku
+  en: Munduruku
+  pt: Munduruku
 
 android:
   config:
@@ -31,9 +32,9 @@ android:
         \s{shift} Z X C V B N M Õ ʼ \s{backspace}
 
 iOS:
-  config:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-myu?channel=nightly&platform=mobile
-    spellerPath: myu.bhfst
+#  config:
+#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-myu?channel=nightly&platform=mobile
+#    spellerPath: myu.bhfst
   primary:
     layers:
       default: |
@@ -52,6 +53,7 @@ iOS:
         [ ] { } # % ^ * + =
         _ \ | ~ < > € $ £ •
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
   iPad-9in:
     layers:
       default: |
@@ -126,14 +128,14 @@ macOS:
           A S D F G H J K L ; ʼ \
         ` Z X C V B N M , . /
       alt: |
-        ∏ ¹ ² ³ £ ¢ ¬ ¶ • ∑ º – §
-          / ? € ® ɨ̃ ← ↓ → ø ʼ ´ ª
-          å ß ð ʃ ɨ ɾ ʝ ĸ ł · ~ º
+        ˈ № ² ³ £ ¢ ¬ ¶ • ∑ º – §
+          / ? ə ɾ ɨ ← ↓ → ø ʼ ´ ª
+          å β ð ʃ g̃ \u{303} ʝ ĸ ł · ~ º
         ` Ω ≈ ₢ ʋ ∫ ŋ µ ≤ ≥ …
       alt+shift: |
-        ă ¡ ½ ¾ ¼ ⅜ ¨ ⅞ × · ° — ±
-          \ ¿ € ® Ŧ \ ↑ ı Ø Þ ` ª
-          Æ Í Î Ï ˝ Ħ &  Ł ő ^ º
+        ˌ ¡ ː ¾ ¼ ⅜ ¨ ⅞ × · ° — ±
+          \ ¿ € ® ɨ̃ \ ↑ ı Ø Þ ` ª
+          Æ Í Î Ï G̃ Ħ &  Ł ő ^ º
         ’ < > © Ʋ ™ Ŋ µ « » …
       alt+caps: |
         § ¹ ² ³ £ ¢ ¬ ¶ • ª º – ≠
@@ -146,21 +148,20 @@ macOS:
           \u{1}  \u{13} \u{4}  \u{6} \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
         ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E}   \u{D}  , .   /
       cmd: |
-        ' 1 2 3 4 5 6 7 8 9 0 + ´
-          q w e r t y u i o p å ¨
-          a s d f g h j k l ø æ @
-        < z x c v b n m , . -
+        § 1 2 3 4 5 6 7 8 9 0 - =
+          q w e r t y u i o p [ ]
+          a s d f g h j k l ; ' \
+        ` z x c v b n m , . /
   space:
-    caps: \u{A0}
     alt: \u{A0}
     alt+shift: \u{A0}
     cmd+alt: \u{A0}
     alt+caps: \u{A0}
   deadKeys:
-    default: ["'", '´', '~']
-    shift: ['`', '¨', '"', '^']
-    caps: ["'", '`', '´', '~']
-    alt: ['`', '~', '´', '¨', '^']
+    default: ['´', '~']
+    shift: ['`', '¨', '^']
+    caps: ['`', '´', '~']
+    alt: ['`', '~', '´', '¨', '^', '№']
 
 windows:
   config:
@@ -189,20 +190,20 @@ windows:
         a s d f g h j k l ç ^ }
         " z x c v b n m < > : ?
       alt: |
-        \u{0} ¹ ² ³ £ ¢ ¬ \ | [ ] ± §
-          / ? ẽ ˇ ɨ\u{303} ỹ ũ ĩ õ ʼ ˚ ¨
-          ã ß ð ʃ ɨ ɾ ˘ \u{0} - \u{0} \u{0} \u{0}
+        \u{0} № ² ³ £ ¢ ¬ \ | [ ] ± §
+          / ? ə ɾ ɨ ỹ ũ ĩ õ ʼ ˚ ¨
+          ã β ð ʃ g̃ \u{303} ˘ \u{0} - \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} ˙ ‹ › ‘ ’ ; : °
       alt+shift: |
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-          Q W Ẽ \u{0} Ŧ Ỹ Ũ Ĩ Õ \u{0} ^ ˇ
-          Ã \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} *
+          Q W Ẽ \u{0} ɨ\u{303} Ỹ Ũ Ĩ Õ \u{0} ^ ˇ
+          Ã \u{0} \u{0} \u{0} G̃ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} *
         ~ \u{0} X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
   deadKeys:
     default: ['~', '´']
     shift: ['`', '¨', '^']
     caps+shift: ['`', '^']
-    alt: ['~', '¨', '´']
+    alt: ['~', '¨', '´', '№']
     alt+shift: ['^', 'ˇ']
   space:
     alt: \u{A0}
@@ -308,8 +309,70 @@ transforms:
     'Y': 'Ý'
     'z': 'ź'
     'Z': 'Ź'
+  "'":
+    " ": "'"
+    'a': 'á'
+    'A': 'Á'
+    'å': 'ǻ'
+    'Å': 'Ǻ'
+    'æ': 'ǽ'
+    'Æ': 'Ǽ'
+    'c': 'ć'
+    'C': 'Ć'
+    'e': 'é'
+    'E': 'É'
+    'g': 'ǵ'
+    'G': 'Ǵ'
+    'i': 'í'
+    'I': 'Í'
+    'k': 'ḱ'
+    'K': 'Ḱ'
+    'l': 'ĺ'
+    'L': 'Ĺ'
+    'm': 'ḿ'
+    'M': 'Ḿ'
+    'n': 'ń'
+    'N': 'Ń'
+    'o': 'ó'
+    'O': 'Ó'
+    'ø': 'ǿ'
+    'Ø': 'Ǿ'
+    'p': 'ṕ'
+    'P': 'Ṕ'
+    'r': 'ŕ'
+    'R': 'Ŕ'
+    's': 'ś'
+    'S': 'Ś'
+    'u': 'ú'
+    'U': 'Ú'
+    'w': 'ẃ'
+    'W': 'Ẃ'
+    'y': 'ý'
+    'Y': 'Ý'
+    'z': 'ź'
+    'Z': 'Ź'
   '¨':
     ' ': '¨'
+    'a': 'ä'
+    'A': 'Ä'
+    'e': 'ë'
+    'E': 'Ë'
+    'h': 'ḧ'
+    'H': 'Ḧ'
+    'i': 'ï'
+    'I': 'Ï'
+    'o': 'ö'
+    'O': 'Ö'
+    'u': 'ü'
+    'U': 'Ü'
+    'w': 'ẅ'
+    'W': 'Ẅ'
+    'x': 'ẍ'
+    'X': 'Ẍ'
+    'y': 'ÿ'
+    'Y': 'Ÿ'
+  '"':
+    ' ': '"'
     'a': 'ä'
     'A': 'Ä'
     'e': 'ë'
@@ -410,6 +473,22 @@ transforms:
     'U': 'Ũ'
     'y': 'ỹ'
     'Y': 'Ỹ'
+  '№':
+    ' ': '№'
+    '1': '¹'
+    '2': '²'
+    '3': '³'
+    '4': '⁴'
+    '5': '⁵'
+    '6': '⁶'
+    '7': '⁷'
+    '8': '⁸'
+    '9': '⁹'
+    '0': '⁰'
+    'm': 'ᵐ'
+    'n': 'ⁿ'
+    'g': 'ᵑ'
+    'w': 'ʷ'
 
 longpress:
   A: Ã Â Á À Ä Ȧ Ā Ạ Å Æ Ǎ
